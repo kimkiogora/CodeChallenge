@@ -1,0 +1,64 @@
+2019-02-24 16:34:38,252 | flask.app_INFO | 2019-02-24 16:34:38 | POST | UploadCSV| begin processing xxx
+2019-02-24 16:34:38,253 | flask.app_INFO | 2019-02-24 16:34:38 | Actual Data is {'first_name': 'John', 'last_name': 'Appleseed', 'postal_address': '13, Kiambu', 'gender': 'Male', 'date_of_birth': '1990-10-10', 'national_id': '232323'}
+2019-02-24 16:34:38,253 | flask.app_INFO | 2019-02-24 16:34:38 | INSERT SQL -> INSERT IGNORE into profile (national_id, first_name, last_name,date_of_birth,gender,postal_addres,created,modified) VALUES ('232323','John','Appleseed','1990-10-10','Male','13, Kiambu',now(),now())
+2019-02-24 16:34:38,264 | flask.app_INFO | 2019-02-24 16:34:38 | Ran insert query, result is {'status': 'OK', 'data': 1L}
+2019-02-24 16:47:01,391 | flask.app_INFO | 2019-02-24 16:47:01 | POST | UploadCSV| begin processing xxx
+2019-02-24 16:47:01,392 | flask.app_INFO | 2019-02-24 16:47:01 | Actual Data is {'first_name': 'John', 'last_name': 'Appleseed', 'postal_address': '13, Kiambu', 'gender': 'Male', 'date_of_birth': '1990-10-10', 'national_id': '232323'}
+2019-02-24 16:47:01,392 | flask.app_INFO | 2019-02-24 16:47:01 | INSERT SQL -> INSERT IGNORE into profile (national_id, first_name, last_name,date_of_birth,gender,postal_addres,created,modified) VALUES ('232323','John','Appleseed','1990-10-10','Male','13, Kiambu',now(),now())
+2019-02-24 16:47:01,397 | flask.app_INFO | 2019-02-24 16:47:01 | Ran insert query, result is {'status': 'OK', 'data': 0L}
+2019-02-24 19:53:48,986 | flask.app_INFO | 2019-02-24 19:53:48 | POST | UploadCSV| begin processing xxx
+2019-02-24 19:55:13,113 | flask.app_INFO | 2019-02-24 19:55:13 | POST | UploadCSV| begin processing xxx
+2019-02-24 19:58:24,873 | flask.app_INFO | 2019-02-24 19:58:24 | POST | UploadCSV| begin processing xxx
+2019-02-24 20:01:09,897 | flask.app_INFO | 2019-02-24 20:01:09 | POST | UploadCSV| begin processing xxx
+2019-02-24 20:01:53,775 | flask.app_INFO | 2019-02-24 20:01:53 | POST | UploadCSV| begin processing xxx
+2019-02-24 20:30:52,065 | flask.app_INFO | 2019-02-24 20:30:52 | POST | UploadCSV| begin processing xxx
+2019-02-24 20:32:08,590 | flask.app_INFO | 2019-02-24 20:32:08 | POST | UploadCSV| begin processing xxx
+2019-02-24 20:34:35,705 | flask.app_INFO | 2019-02-24 20:34:35 | POST | UploadCSV| begin processing xxx
+2019-02-24 20:35:49,578 | flask.app_INFO | 2019-02-24 20:35:49 | POST | UploadCSV| begin processing xxx
+2019-02-24 20:35:49,579 | flask.app_INFO | 2019-02-24 20:35:49 | Actual Data is {'first_name': 'John', 'last_name': 'Appleseed', 'postal_address': '13, Kiambu', 'gender': 'Male', 'date_of_birth': '1990-10-10', 'national_id': '232323'}
+2019-02-24 20:35:49,580 | flask.app_INFO | 2019-02-24 20:35:49 | INSERT SQL -> INSERT IGNORE into profile (national_id, first_name, last_name,date_of_birth,gender,postal_addres,created,modified) VALUES ('232323','John','Appleseed','1990-10-10','Male','13, Kiambu',now(),now())
+2019-02-24 20:35:49,596 | flask.app_INFO | 2019-02-24 20:35:49 | Ran insert query, result is {'status': 'OK', 'data': 0L}
+2019-02-24 20:43:26,083 | flask.app_INFO | 2019-02-24 20:43:26 | POST | UploadCSV| begin processing xxx
+2019-02-24 20:44:58,741 | flask.app_INFO | 2019-02-24 20:44:58 | POST | UploadCSV| begin processing xxx
+2019-02-24 20:45:15,575 | flask.app_INFO | 2019-02-24 20:45:15 | POST | UploadCSV| begin processing xxx
+2019-02-24 20:45:28,843 | flask.app_INFO | 2019-02-24 20:45:28 | POST | UploadCSV| begin processing xxx
+2019-02-24 20:47:41,783 | flask.app_INFO | 2019-02-24 20:47:41 | POST | UploadCSV| begin processing xxx
+2019-02-24 20:47:41,784 | flask.app_ERROR | 2019-02-24 20:47:41 | Invalid file found
+2019-02-24 20:56:10,698 | flask.app_INFO | 2019-02-24 20:56:10 | POST | UploadCSV| begin processing xxx
+2019-02-24 20:56:10,699 | flask.app_ERROR | 2019-02-24 20:56:10 | Invalid file found
+2019-02-24 20:59:23,215 | flask.app_INFO | 2019-02-24 20:59:23 | POST | UploadCSV| begin processing xxx
+2019-02-24 20:59:23,216 | flask.app_ERROR | 2019-02-24 20:59:23 | Invalid file found
+2019-02-24 21:00:36,618 | flask.app_INFO | 2019-02-24 21:00:36 | POST | UploadCSV| begin processing xxx
+2019-02-24 21:00:36,619 | flask.app_ERROR | 2019-02-24 21:00:36 | Invalid file found
+2019-02-24 21:01:07,216 | flask.app_INFO | 2019-02-24 21:01:07 | POST | UploadCSV| begin processing xxx
+2019-02-24 21:01:07,236 | flask.app_ERROR | 2019-02-24 21:01:07 | Invalid file found
+2019-02-24 21:03:02,445 | flask.app_INFO | 2019-02-24 21:03:02 | POST | UploadCSV| begin processing xxx
+2019-02-24 21:03:02,446 | flask.app_ERROR | 2019-02-24 21:03:02 | Invalid file found
+2019-02-24 21:03:22,957 | flask.app_INFO | 2019-02-24 21:03:22 | POST | UploadCSV| begin processing xxx
+2019-02-24 21:03:22,958 | flask.app_INFO | 2019-02-24 21:03:22 | Actual Data is {'first_name': 'John', 'last_name': 'Appleseed', 'postal_address': '13, Kiambu', 'gender': 'Male', 'date_of_birth': '1990-10-10', 'national_id': '232323'}
+2019-02-24 21:03:22,958 | flask.app_INFO | 2019-02-24 21:03:22 | INSERT SQL -> INSERT IGNORE into profile (national_id, first_name, last_name,date_of_birth,gender,postal_addres,created,modified) VALUES ('232323','John','Appleseed','1990-10-10','Male','13, Kiambu',now(),now())
+2019-02-24 21:03:22,969 | flask.app_INFO | 2019-02-24 21:03:22 | Ran insert query, result is {'status': 'OK', 'data': 0L}
+2019-02-24 21:03:48,485 | flask.app_INFO | 2019-02-24 21:03:48 | POST | UploadCSV| begin processing xxx
+2019-02-24 21:03:48,485 | flask.app_ERROR | 2019-02-24 21:03:48 | Invalid file found
+2019-02-24 21:05:42,153 | flask.app_INFO | 2019-02-24 21:05:42 | POST | UploadCSV| begin processing xxx
+2019-02-24 21:05:42,154 | flask.app_ERROR | 2019-02-24 21:05:42 | Invalid file found
+2019-02-24 21:06:04,700 | flask.app_INFO | 2019-02-24 21:06:04 | POST | UploadCSV| begin processing xxx
+2019-02-24 21:06:04,701 | flask.app_ERROR | 2019-02-24 21:06:04 | Invalid file found
+2019-02-24 21:06:52,931 | flask.app_INFO | 2019-02-24 21:06:52 | POST | UploadCSV| begin processing xxx
+2019-02-24 21:06:52,931 | flask.app_ERROR | 2019-02-24 21:06:52 | Invalid file found
+2019-02-24 21:07:07,623 | flask.app_INFO | 2019-02-24 21:07:07 | POST | UploadCSV| begin processing xxx
+2019-02-24 21:07:07,624 | flask.app_INFO | 2019-02-24 21:07:07 | Actual Data is {'first_name': 'John', 'last_name': 'Appleseed', 'postal_address': '13, Kiambu', 'gender': 'Male', 'date_of_birth': '1990-10-10', 'national_id': '232323'}
+2019-02-24 21:07:07,625 | flask.app_INFO | 2019-02-24 21:07:07 | INSERT SQL -> INSERT IGNORE into profile (national_id, first_name, last_name,date_of_birth,gender,postal_addres,created,modified) VALUES ('232323','John','Appleseed','1990-10-10','Male','13, Kiambu',now(),now())
+2019-02-24 21:07:07,632 | flask.app_INFO | 2019-02-24 21:07:07 | Ran insert query, result is {'status': 'OK', 'data': 0L}
+2019-02-24 21:07:34,519 | flask.app_INFO | 2019-02-24 21:07:34 | POST | UploadCSV| begin processing xxx
+2019-02-24 21:07:34,520 | flask.app_INFO | 2019-02-24 21:07:34 | Actual Data is {'first_name': 'John', 'last_name': 'Appleseed', 'postal_address': '13, Kiambu', 'gender': 'Male', 'date_of_birth': '1990-10-10', 'national_id': '232323'}
+2019-02-24 21:07:34,520 | flask.app_INFO | 2019-02-24 21:07:34 | INSERT SQL -> INSERT IGNORE into profile (national_id, first_name, last_name,date_of_birth,gender,postal_addres,created,modified) VALUES ('232323','John','Appleseed','1990-10-10','Male','13, Kiambu',now(),now())
+2019-02-24 21:07:34,528 | flask.app_INFO | 2019-02-24 21:07:34 | Ran insert query, result is {'status': 'OK', 'data': 0L}
+2019-02-24 21:07:46,442 | flask.app_INFO | 2019-02-24 21:07:46 | POST | UploadCSV| begin processing xxx
+2019-02-24 21:07:46,444 | flask.app_ERROR | 2019-02-24 21:07:46 | Invalid file found
+2019-02-25 09:45:14,107 | flask.app_INFO | 2019-02-25 09:45:14 | POST | UploadCSV| begin processing xxx
+2019-02-25 09:45:14,107 | flask.app_ERROR | 2019-02-25 09:45:14 | Invalid file found
+2019-02-25 09:49:27,808 | flask.app_INFO | 2019-02-25 09:49:27 | POST | UploadCSV| begin processing xxx
+2019-02-25 09:49:27,808 | flask.app_INFO | 2019-02-25 09:49:27 | Actual Data is {'first_name': 'John', 'last_name': 'Appleseed', 'postal_address': '13, Kiambu', 'gender': 'Male', 'date_of_birth': '1990-10-10', 'national_id': '232323'}
+2019-02-25 09:49:27,809 | flask.app_INFO | 2019-02-25 09:49:27 | INSERT SQL -> INSERT IGNORE into profile (national_id, first_name, last_name,date_of_birth,gender,postal_addres,created,modified) VALUES ('232323','John','Appleseed','1990-10-10','Male','13, Kiambu',now(),now())
+2019-02-25 09:49:27,817 | flask.app_INFO | 2019-02-25 09:49:27 | Ran insert query, result is {'status': 'OK', 'data': 0L}
