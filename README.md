@@ -10,7 +10,7 @@ sudo apt-get install libmysqlclient-dev
 
 
 ## Sample Command Curl
-```curl -F 'csv_file=@/home/kim/Desktop/interviews/tulaa/sample_csv.csv' http://localhost:8086/upload
+```curl -F 'csv_file=@/home/kim/Desktop/interviews/tulaa/sample_csv.csv' http://localhost:8086/upload```
 
 ## Sample Response
 {"status": "200", "message": "Uploaded"}
